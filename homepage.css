@@ -1,0 +1,262 @@
+a{
+    text-decoration: none;
+    color: #5B4739}
+body{
+    color:#5B4739;
+    background-color: #FFFCF4;
+    font-family:'Ubuntu', sans-serif;}
+header{
+    height: 120px;
+    background-color: #FFFCF4;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 1px 1%;
+    color: #5B4739;}
+.logo{
+    cursor: pointer;
+    position:relative;
+    margin: 3%;}
+.logo:hover{
+    transition:all 0.2s ease-out;
+    transform:scale(1.2,1.2);}
+.nav {
+    list-style: none;
+    justify-content:center;
+    padding: 70px;
+    align-items: center;
+    position: relative;
+    float: right;
+    font-size: 24px;
+    color: #5B4739;
+    margin-right: auto;}
+.navimg{
+    position:absolute;
+    float:right;
+    padding: 15px 50px;}
+.nav li{
+    position: relative;
+    display: inline-block;
+    padding: 0px 20px;
+    padding: 20px;
+    color: #5B4739;
+    font-size: 24px;
+    width: 50px;
+    text-align: center}
+.nav li a:hover{
+    color:#FDBB83;
+    transition:all 0.2s ease-out;
+    transform: 28px;}
+.Overview2{
+    position: relative;
+    width: 550px;
+    height: 130px;
+    margin: 0 40% 0%;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;}
+.herobuttons{
+    position:relative;
+    display:flex;
+    text-align:left;}
+.herobuttons{
+    animation:herobuttons 2s;}
+@keyframes herobuttons{
+    0%{transform:translate3d(100px,-1000px,0px);}
+    25%{transform:translate3d(100px,-1000px,0px);}
+    50%{transform:translate3d(50px,30px,0px);}
+    75%{transform:translate3d(50px,-300px,0px);}
+    100%{transform:translate3d(0px,0px,0px);}}
+#separation1{
+    text-align: right;
+    padding: 60px 20px;}
+#MyWork{
+    padding: 60px 20px 20px 10px;}
+#About{
+    padding:20px 0px 80px 0px;}
+#Resume{
+    padding:20px 0px 80px 0px;}
+button{
+    position: relative;
+    border:none;
+    background: none;}
+.workbackground1{
+        position:absolute;
+        height: 500px;
+        width:1451px;
+        float:right;
+        padding: 12px 0px 0px 0px;}
+.workcontent1{
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    text-align: left;
+    padding: 50px 20px 1px 20px;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;}
+.workimg1{
+    float: left;
+    position: relative;
+    margin: 20px;
+    padding: 50px 50px;
+    display: flex;
+    align-items: center;
+    width: 500px;}
+.ViewProject1{
+    display: inline-block;
+    position: relative;
+    margin: 1%;
+    padding: 10px;}
+
+.workbackground2{
+    position: absolute;
+    height: 500px;
+    width: 1451px;
+    float: right;
+    padding: 30px 0px 30px 50px;}
+.workcontent2{
+    position: relative;
+    width: 400px;
+    text-align: left;
+    padding: 50px 20px 1px 350px;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;}
+.workimg2{
+    position: relative;
+    margin: 20px;
+    float:right;
+    padding: 50px 50px;
+    display: inline-block;
+    align-items: center;
+    width: 500px;}
+.ViewProject2{
+    display: inline-block;
+    position: relative;
+    margin: 1%;
+    padding: 10px 0px 0px 350px;}
+.viewmore{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 40px 20px 40px;}
+button:hover{
+    transition:all 0.2s ease-out;
+    transform:scale(1.2,1.2);}
+#herosection{
+        background-color:#FFFCF4;
+        height: 650px;}
+#herosection1{
+        background-color:#FFFCF4;
+        height: 650px;}
+#herobackground{
+    position: absolute;
+    height: 650px;
+    float:right;
+    padding: 12px 0px 0px 55px;}
+.herotitle{
+    padding:20px;
+    position:absolute;}
+.heroImg{
+    float: right;
+    position: relative;
+    margin: 20px;
+    padding: 80px 20px 50px;
+    display: flex;
+    align-items: center;}
+.heroImg:hover{
+        transition:all 0.2s ease-out;
+        transform:scale(1.2,1.2);}
+#myimg{
+    text-align:center;
+    padding: 25px;}
+.Overview{
+    position:relative;
+    width: 680px;
+    height: 300px;
+    margin: 0 20% 0%;
+    text-align: center;
+    font-size: 24px;
+    font-family:'Ubuntu', sans-serif;}
+.text-block-1{
+    display: block;
+    position: relative;
+    width: 500px;
+    margin: 3%;
+    text-align: left;
+    height: 20px;
+    padding: 9% 2.5% 20px;
+    font-size: 36px;
+    line-height: 1.2em;
+    font-family: 'Ubuntu', sans-serif;
+    height: 100px;}
+.text-block-1 strong:hover{
+        transition:all 0.2s ease-out;;
+        color: #FDBB83;}
+#footer{
+    background-color:#BE9A80;
+    font-family:'Ubuntu', sans-serif;}
+button{
+        position: relative;
+        border: none;
+        padding: 20px;
+        background: none;}
+#separation{
+    text-align: center;}
+#footer{
+    height:280px;}
+.footerelement{
+    display:flex;
+    justify-content:space-between;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 50px;}
+.navfooter{
+    flex-grow:1;
+    flex-direction:column;
+    width: 400px;
+    margin: 0 auto;
+    font-family:'Ubuntu', sans-serif;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    color: #5B4739}
+.navfooterul{
+    font-size: 24px;
+    text-align: center;
+    color: #5B4739}
+.navfooterul ul a:hover{
+        color:#FDBB83;
+        transition:all 0.2s ease-out;
+        transform: 28px;}
+.backtohome{
+    flex-grow:2;
+    flex-direction:column;
+    width: 400px;
+    margin: 0 auto;
+    font-family:'Ubuntu', sans-serif;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    color: #5B4739;
+    padding: 50px;}
+.backtohome:hover{
+        transition:all 0.2s ease-out;
+        transform:scale(1.2,1.2);}
+.aboutfooter{
+    flex-grow: 3;
+    flex-direction:column;
+    width: 400px;
+    margin: 0 auto;
+    font-family:'Ubuntu', sans-serif;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    color: #5B4739;}
+.aboutfooterul{
+    font-size: 24px;
+    text-align: center;
+    color: #5B4739}
+.aboutfooterul ul a:hover{
+    color:#FDBB83;
+    transition:all 0.2s ease-out;
+    transform: 28px;}
